@@ -58,6 +58,9 @@ def scrape_all_players(player_id_list):
         player_df = scrape_player_page(player_id)
         if not player_df.empty and len(player_df) > 2:
             all_player_stats.append(player_df)
+            player_df = player_df.fillna('Unknown')
+            player_df = player_df[player_df['Season'].str.contains('-')]
+            # print(player_df)
 
     if all_player_stats:
         combined_df = pd.concat(all_player_stats, ignore_index=True)
@@ -66,25 +69,26 @@ def scrape_all_players(player_id_list):
         return pd.DataFrame()
 
 def identify_transfers(df):
-    # df_clean = df[df['Season'].str.contains('-')]
-    df_clean = df.sort_values(by=['player_id', 'Season'])
+    df = df.fillna('Unknown')
+    df_clean = df[df['Season'].str.contains('-')]
+    df_clean = df_clean.sort_values(by=['player_id', 'Season'])
     df_clean['previous_school'] = df_clean.groupby('player_id')['Team'].shift(1)
 
-    transfers_df = df_clean[df_clean['School'] != df_clean['previous_school']]
-    transfers_df = transfers_df[transfers_df['previous_school'].notna()]
+    transfers_df = df_clean
+    # transfers_df = df_clean[df_clean['Team'] != df_clean['previous_school']]
+    # transfers_df = transfers_df[transfers_df['previous_school'].notna()]
     return transfers_df
 
 if __name__ == '__main__':
-    player_id_list = pd.read_csv('interim/all_cbb_player_ids.csv')
-    df_raw = scrape_all_players(player_id_list['player_id'].tolist())
+    player_id_list = pd.read_csv('processed/identified_transfers.csv')
+    df_raw = scrape_all_players(player_id_list['player_id'])
+    # print(df_raw)
     df_transfers = identify_transfers(df_raw)
 
     if not df_transfers.empty:
         os.makedirs('processed', exist_ok=True)
-        transfer_file_path = 'processed/identified_transfers.csv'
+        transfer_file_path = 'processed/identified_transfers_stats.csv'
         df_transfers.to_csv(transfer_file_path, index=False)
         print(f'Found and saved {len(df_transfers)} transfers to {transfer_file_path}')
     else:
         print('No transfers found')
-
-# print(scrape_player_page('deivon-smith-1'))
