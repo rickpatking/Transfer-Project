@@ -2,10 +2,11 @@ import pandas as pd
 
 transfer_df = pd.read_csv('processed/identified_transfers_stats.csv')
 transfer_df = transfer_df[transfer_df['Team'] != transfer_df['previous_school']]
+transfer_df = transfer_df[transfer_df['Season'].str.contains('0')]
 
-# Get rid of guys who didn't play more than 5 games
+# Get rid of guys who didn't play more than 2 games
 transfer_df = transfer_df[transfer_df['G_y'] != 'Did not play - juco']
-transfer_df = transfer_df[transfer_df['G_y'].astype(float) >= 5]
+transfer_df = transfer_df[transfer_df['G_y'].astype(float) >= 2]
 
 # find all rows with the same player_id and then subtract their PERs
 transfer_df['previous_PER'] = transfer_df.groupby('player_id')['PER'].shift(1)
@@ -24,6 +25,9 @@ df_final = pd.concat([before_df, df_wide], axis=1)
 
 df_final = df_final.drop(columns=['before_previous_school', 'before_previous_PER', 'before_change_in_PER'])
 df_final = df_final.reset_index(drop=True)
+
+df_final.to_csv('processed/transfers_stats_before_after.csv')
+
 
 y = df_final['change_in_PER']
 
@@ -53,37 +57,39 @@ X = X.drop(columns=['before_Pos_x'])
 
 X = X.apply(pd.to_numeric, errors='coerce')
 
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestRegressor
+# X.to_csv('processed/transfers_stats_before_after.csv')
 
-X = X.dropna()
-y = y.loc[X.index]
-
-X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.2, random_state=42
-)
-
-model = RandomForestRegressor(n_estimators=100, random_state=42)
-model.fit(X_train, y_train)
-
-y_pred = model.predict(X_test)
-
-from sklearn.metrics import mean_absolute_error, r2_score
-
-mae = mean_absolute_error(y_test, y_pred)
-print(f"Mean Absolute Error (MAE): {mae:.2f}")
-
-r2 = r2_score(y_test, y_pred)
-print(f"R-squared (R²): {r2:.2f}")
-
-import numpy as np
-
-feature_importances = model.feature_importances_
-
-feature_importance_df = pd.DataFrame({
-    'feature': X_train.columns,
-    'importance': feature_importances
-}).sort_values(by='importance', ascending=False)
-
-print("\nTop 10 Most Important Features:")
-print(feature_importance_df.head(10))
+# from sklearn.model_selection import train_test_split
+# from sklearn.ensemble import RandomForestRegressor
+#
+# X = X.dropna()
+# y = y.loc[X.index]
+#
+# X_train, X_test, y_train, y_test = train_test_split(
+#     X, y, test_size=0.2, random_state=42
+# )
+#
+# model = RandomForestRegressor(n_estimators=100, random_state=42)
+# model.fit(X_train, y_train)
+#
+# y_pred = model.predict(X_test)
+#
+# from sklearn.metrics import mean_absolute_error, r2_score
+#
+# mae = mean_absolute_error(y_test, y_pred)
+# print(f"Mean Absolute Error (MAE): {mae:.2f}")
+#
+# r2 = r2_score(y_test, y_pred)
+# print(f"R-squared (R²): {r2:.2f}")
+#
+# import numpy as np
+#
+# feature_importances = model.feature_importances_
+#
+# feature_importance_df = pd.DataFrame({
+#     'feature': X_train.columns,
+#     'importance': feature_importances
+# }).sort_values(by='importance', ascending=False)
+#
+# print("\nTop 10 Most Important Features:")
+# print(feature_importance_df.head(10))
