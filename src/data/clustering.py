@@ -11,9 +11,9 @@ from kneed import KneeLocator
 
 
 transfer_df = pd.read_csv('processed/transfers_stats_before_after.csv')
-cluster_df = transfer_df.copy()
-cluster_df[cluster_df['3P%'].str.isalpha()] = 0
-cluster_df = cluster_df[[
+precluster_df = transfer_df.copy()
+precluster_df['3P%'][precluster_df['3P%'].str.isalpha()] = 0
+cluster_df = precluster_df[[
     'FG%', '3P%', '2P%', 'eFG%', 'FT%', 'TS%', 'PER', '3PAr', 'FTr', 'ORB%', 'DRB%',
     'TRB%', 'AST%', 'STL%', 'BLK%', 'TOV%', 'USG%', 'WS/40', 'OBPM', 'DBPM', 'BPM'
 ]]
@@ -24,7 +24,7 @@ cluster_df = cluster_df.fillna(0)
 scaler = StandardScaler()
 cluster_scaled = scaler.fit_transform(cluster_df)
 
-k_values = range(1, 11)
+k_values = range(1, 15)
 inertia = []
 for k in k_values:
     kmeans = KMeans(n_clusters=k, n_init='auto', random_state=0)
@@ -43,3 +43,16 @@ results['cluster'] = cluster_labels
 sns.scatterplot(x='pca1', y='pca2', hue='cluster', data=results, s=30)
 plt.title('K-means clustering with 2 dimensions')
 plt.show()
+
+clustered_df = cluster_df.copy()
+clustered_df = clustered_df.astype(float)
+clustered_df['cluster'] = cluster_labels
+
+cluster_means = clustered_df.groupby('cluster').mean()
+cluster_medians = clustered_df.groupby('cluster').median()
+
+cluster_means.to_csv('processed/cluster_means.csv')
+cluster_medians.to_csv('processed/cluster_medians.csv')
+
+precluster_df['cluster'] = cluster_labels
+precluster_df.to_csv('processed/transfers_stats_with_clusters.csv')
