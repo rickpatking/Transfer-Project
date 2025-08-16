@@ -1,9 +1,6 @@
 import pandas as pd
 import joblib
 import numpy as np
-from mistune.markdown import preprocess
-
-from src.data.machine_learning import feature_importance
 
 
 class TransferSuccessPredictor:
@@ -103,7 +100,7 @@ class TransferSuccessPredictor:
 
 predictor = TransferSuccessPredictor()
 
-transfers = pd.read_csv('processed/current_final_stats.csv')
+transfers = pd.read_csv('../../data/processed/current_final_stats.csv')
 # processed_transfers = predictor.preprocess_player_data(transfers)
 
 successful_transfers = []

@@ -20,9 +20,9 @@ import pandas as pd
 # all_transfers.columns = ['player_id']
 # all_transfers.to_csv('processed/identified_transfers.csv', index=False)
 
-trans_clust = pd.read_csv('processed/transfers_stats_with_clusters.csv')
-team_stats = pd.read_csv('processed/team_stats.csv')
-team_stats2 = pd.read_csv('processed/team_stats2.csv')
+trans_clust = pd.read_csv('../../data/interim/transfers_stats_with_clusters.csv')
+team_stats = pd.read_csv('../../data/interim/team_stats.csv')
+team_stats2 = pd.read_csv('../../data/interim/team_stats2.csv')
 team_stats = team_stats.add_prefix('old_')
 team_stats2 = team_stats2.add_prefix('new_')
 

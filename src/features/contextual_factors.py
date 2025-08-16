@@ -77,7 +77,7 @@ def scrape_mul_teams(team_list):
         return pd.DataFrame()
 
 if __name__ == '__main__':
-    transfer_data = pd.read_csv('processed/transfers_stats_with_clusters.csv')
+    transfer_data = pd.read_csv('../../data/interim/transfers_stats_with_clusters.csv')
 
     new_team_list = []
     for index, player in transfer_data.iterrows():
@@ -155,8 +155,8 @@ if __name__ == '__main__':
     new_all_data = scrape_mul_teams(new_team_list)
 
     if not new_all_data.empty:
-        os.makedirs('processed', exist_ok=True)
-        transfer_file_path = 'processed/team_stats.csv'
+        os.makedirs('../data/processed', exist_ok=True)
+        transfer_file_path = '../../data/interim/team_stats.csv'
         new_all_data.to_csv(transfer_file_path, index=False)
     else:
         print('No transfers found')
@@ -237,8 +237,8 @@ if __name__ == '__main__':
     all_data = scrape_mul_teams(team_list)
 
     if not all_data.empty:
-        os.makedirs('processed', exist_ok=True)
-        transfer_file_path = 'processed/team_stats2.csv'
+        os.makedirs('../data/processed', exist_ok=True)
+        transfer_file_path = '../../data/interim/team_stats2.csv'
         all_data.to_csv(transfer_file_path, index=False)
     else:
         print('No transfers found')

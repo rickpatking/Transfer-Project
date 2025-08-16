@@ -101,7 +101,7 @@ team_names = [
 ]
 
 if __name__ == '__main__':
-    transfer_data = pd.read_csv('processed/current_transfers.csv')
+    transfer_data = pd.read_csv('../../data/interim/current_transfers.csv')
 
     transfer_data[['new_university_name', 'new_team_name']] = transfer_data['new_team'].apply(split_university_team)
 
@@ -216,8 +216,8 @@ if __name__ == '__main__':
     all_data = scrape_mul_teams(team_list)
 
     if not all_data.empty:
-        os.makedirs('processed', exist_ok=True)
-        transfer_file_path = 'processed/current_transfers_teams.csv'
+        os.makedirs('../data/processed', exist_ok=True)
+        transfer_file_path = '../../data/interim/current_transfers_teams.csv'
         all_data.to_csv(transfer_file_path, index=False)
     else:
         print('No transfers found')
@@ -335,8 +335,8 @@ if __name__ == '__main__':
     new_all_data = scrape_mul_teams(new_team_list)
 
     if not new_all_data.empty:
-        os.makedirs('processed', exist_ok=True)
-        transfer_file_path = 'processed/current_transfers_teams_2.csv'
+        os.makedirs('../data/processed', exist_ok=True)
+        transfer_file_path = '../../data/interim/current_transfers_teams_2.csv'
         new_all_data.to_csv(transfer_file_path, index=False)
     else:
         print('No transfers found')

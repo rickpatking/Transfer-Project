@@ -1,6 +1,6 @@
 import pandas as pd
 
-transfer_df = pd.read_csv('processed/identified_transfers_stats.csv')
+transfer_df = pd.read_csv('../../data/interim/identified_transfers_stats.csv')
 transfer_df = transfer_df[transfer_df['Team'] != transfer_df['previous_school']]
 transfer_df = transfer_df[transfer_df['Season'].str.contains('0')]
 

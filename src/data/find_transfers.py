@@ -78,14 +78,14 @@ def identify_transfers(df):
     return transfers_df
 
 if __name__ == '__main__':
-    player_id_list = pd.read_csv('processed/identified_transfers.csv')
+    player_id_list = pd.read_csv('../../data/raw/identified_transfers.csv')
     df_raw = scrape_all_players(player_id_list['player_id'])
     # print(df_raw)
     df_transfers = identify_transfers(df_raw)
 
     if not df_transfers.empty:
         os.makedirs('processed', exist_ok=True)
-        transfer_file_path = 'processed/identified_transfers_stats.csv'
+        transfer_file_path = '../../data/interim/identified_transfers_stats.csv'
         df_transfers.to_csv(transfer_file_path, index=False)
         print(f'Found and saved {len(df_transfers)} transfers to {transfer_file_path}')
     else:

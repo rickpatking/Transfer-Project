@@ -65,7 +65,7 @@ if __name__ == '__main__':
     if all_cbb_player_ids:
         os.makedirs('interim', exist_ok=True)
         df_ids = pd.DataFrame(all_cbb_player_ids, columns=['player_id'])
-        file_path = 'interim/all_cbb_player_ids.csv'
+        file_path = '../../data/raw/all_cbb_player_ids.csv'
         df_ids.to_csv(file_path, index=False)
         print(f'Found and saved {len(all_cbb_player_ids)} unique player IDs to {file_path}')
     else:

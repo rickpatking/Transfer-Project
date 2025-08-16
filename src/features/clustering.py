@@ -11,7 +11,7 @@ from kneed import KneeLocator
 import joblib
 
 
-transfer_df = pd.read_csv('processed/current_transfers_stats.csv')
+transfer_df = pd.read_csv('../../data/interim/current_transfers_stats.csv')
 precluster_df = transfer_df.copy()
 precluster_df = precluster_df[precluster_df['Season'].str.contains('2024-25')]
 precluster_df = precluster_df[precluster_df['G_y'] != 'Did not play - juco']

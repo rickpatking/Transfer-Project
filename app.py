@@ -45,8 +45,8 @@ st.markdown("""
 def load_data():
     """Generate sample data for demonstration"""
     try:
-        df_stats = pd.read_csv('src/data/processed/current_final_stats.csv')
-        df_success = pd.read_csv('src/data/processed/transfer_success.csv')
+        df_stats = pd.read_csv('data/processed/current_final_stats.csv')
+        df_success = pd.read_csv('data/interim/transfer_success.csv')
 
         merged_df = pd.merge(
             df_stats,

@@ -51,10 +51,10 @@ full_name_to_original_name = {
     'james evans jr': 'james evans'
 }
 
-current_transfers = pd.read_csv('processed/current_transfers.csv')
-current_transfers_stats = pd.read_csv('processed/current_transfers_stats_clusters.csv')
-current_teams1 = pd.read_csv('processed/current_transfers_teams.csv')
-current_teams2 = pd.read_csv('processed/current_transfers_teams_2.csv')
+current_transfers = pd.read_csv('../../data/interim/current_transfers.csv')
+current_transfers_stats = pd.read_csv('../../data/interim/current_transfers_stats_clusters.csv')
+current_teams1 = pd.read_csv('../../data/interim/current_transfers_teams.csv')
+current_teams2 = pd.read_csv('../../data/interim/current_transfers_teams_2.csv')
 
 current_transfers_stats['standard_player'] = current_transfers_stats['player_id'].str.replace('-', ' ', regex=False).str.replace(r'\d+', '', regex=True).str.strip().str.lower()
 for full, original in full_name_to_original_name.items():

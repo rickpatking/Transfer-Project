@@ -9,7 +9,7 @@ from sklearn.model_selection import cross_val_score
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-df_final = pd.read_csv('processed/final_stats.csv')
+df_final = pd.read_csv('../../data/processed/final_stats.csv')
 
 y = (df_final['change_in_PER'] > 2).astype(int)
 
