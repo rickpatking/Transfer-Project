@@ -180,7 +180,7 @@ def get_all_college_names(before_Teams, cur_year = 2025):
 
 if __name__ == '__main__':
     # transfers = get_recent_transfers()
-    transfers = pd.read_csv('processed/current_transfers.csv')
+    transfers = pd.read_csv('data/processed/current_transfers2.csv')
     player_ids = []
     for index, transfer in transfers.iterrows():
         if 'California State University Northridge' in transfer['before_Team']:
@@ -381,7 +381,7 @@ if __name__ == '__main__':
 
     current_transfers_stats = scrape_all_players(player_id_team_list)
     os.makedirs('processed', exist_ok=True)
-    transfer_file_path = 'processed/current_transfers_stats.csv'
+    transfer_file_path = 'data/processed/current_transfers_stats2.csv'
     current_transfers_stats.to_csv(transfer_file_path, index=False)
 
     # all_teams = []

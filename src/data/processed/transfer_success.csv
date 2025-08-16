@@ -1,0 +1,261 @@
+,success_probability,predicted_successful,confidence,key_factors,player
+0,0.5560537974417463,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",zvonimir-ivisic-1
+1,0.7782217427760084,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",andrej-stojakovic-2
+2,0.769410196860004,True,Medium,"{'positive_factors': ['sos_change'], 'negative_factors': ['before_WS/40', 'cluster', 'before_USG%', 'before_OWS']}",ivan-matlekovic-1
+3,0.761961071184258,True,Medium,"{'positive_factors': [], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x', 'before_WS']}",spencer-mahoney-1
+4,0.44717307160500314,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'sos_change', 'before_OWS']}",gavin-griffiths-2
+5,0.4511855101895012,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",jordan-mason-3
+6,0.7445100823828082,True,Medium,"{'positive_factors': ['sos_change'], 'negative_factors': ['before_WS/40', 'cluster', 'before_USG%', 'before_OWS']}",elijah-gray-1
+7,0.5100352823744291,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",jamir-simpson-1
+8,0.7364964120079027,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",malachi-smith-2
+9,0.4546560734229197,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'sos_change', 'before_USG%', 'before_OWS']}",jj-taylor-2
+10,0.5203194726850751,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",bradley-ezewiro-1
+11,0.7637521795944334,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",desmond-claude-1
+12,0.748241224243749,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",george-kimble-iii-1
+13,0.7779715561737015,True,Medium,"{'positive_factors': [], 'negative_factors': ['before_WS/40', 'cluster', 'before_USG%', 'before_OWS', 'before_G_x']}",tafara-gapare-1
+14,0.7517483654255809,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",ryan-cornish-1
+15,0.7424507856284746,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",chris-johnson-12
+16,0.5327158747677297,True,Low,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",amaree-abram-1
+17,0.7928233857979143,True,Medium,"{'positive_factors': [], 'negative_factors': ['before_WS/40', 'cluster', 'before_USG%', 'before_OWS', 'before_G_x']}",jaylen-carey-1
+18,0.4866131051691485,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",mouhamed-dioubate-1
+19,0.7547791752084408,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",jaland-lowe-2
+20,0.7578604339069601,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",kam-williams-2
+21,0.5136504656316595,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",denzel-aberdeen-1
+22,0.5486568723280916,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",nick-pringle-1
+23,0.518312823306761,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",cade-tyson-1
+24,0.7333984571256245,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",pop-isaacs-1
+25,0.670553634985408,True,Medium,"{'positive_factors': [], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x', 'before_WS']}",rakease-passmore-1
+26,0.588654043515249,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",rashaun-agee-1
+27,0.7849606786055086,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",devan-cambridge-1
+28,0.7724128288907626,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",boogie-fland-1
+29,0.7160183223440768,True,Medium,"{'positive_factors': [], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x', 'before_WS']}",curtis-givens-iii-1
+30,0.5153572965106548,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",chas-kelley-iii-1
+31,0.5513810806617911,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",baba-miller-1
+32,0.766594202452752,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",mier-panoam-1
+33,0.738553189467707,True,Medium,"{'positive_factors': [], 'negative_factors': ['before_WS/40', 'cluster', 'before_USG%', 'sos_change', 'before_OWS']}",assane-diop-2
+34,0.7261185473744866,True,Medium,"{'positive_factors': [], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'sos_change', 'before_G_x']}",kanaan-carlyle-1
+35,0.4191308638127954,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'sos_change']}",vasean-allette-1
+36,0.46316532130296395,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",jeremiah-williams-3
+37,0.7627177522184192,True,Medium,"{'positive_factors': ['sos_change'], 'negative_factors': ['before_WS/40', 'cluster', 'before_USG%', 'before_OWS']}",collin-metcalf-1
+38,0.7551531918621076,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",duke-miles-1
+39,0.7538000623499639,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",jacob-dar-1
+40,0.6555265688398245,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'sos_change', 'before_USG%', 'before_OWS']}",phat-phat-brooks-1
+41,0.777896114914084,True,Medium,"{'positive_factors': [], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x', 'before_WS']}",chance-stephens-1
+42,0.7901686160185609,True,Medium,"{'positive_factors': ['adjt_change'], 'negative_factors': ['before_WS/40', 'cluster', 'before_USG%', 'before_OWS']}",kris-parker-1
+43,0.7335282502843166,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",elijah-fisher-1
+44,0.5047555701705138,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'sos_change']}",travis-gray-1
+45,0.7555042187056102,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",quaran-mcpherson-1
+46,0.5164861747855078,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",jordan-crawford-3
+47,0.7775183449224511,True,Medium,"{'positive_factors': [], 'negative_factors': ['before_WS/40', 'cluster', 'before_USG%', 'before_OWS', 'before_G_x']}",ubong-abasi-etim-1
+48,0.5124398105957861,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",morris-ugusuk-1
+49,0.4938635669457863,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",babacar-faye-1
+50,0.7462716745182395,True,Medium,"{'positive_factors': [], 'negative_factors': ['before_WS/40', 'cluster', 'before_USG%', 'before_OWS', 'sos_change']}",chris-riddle-1
+51,0.5492460539238233,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",lamar-washington-1
+52,0.5415794660236211,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",marcus-randolph-1
+53,0.5190574813202747,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",tyler-betsey-1
+54,0.5274640614330398,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",rylan-griffen-1
+55,0.4718985328208998,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",pj-carter-1
+56,0.572858441029511,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",federiko-federiko-1
+57,0.7535437732361107,True,Medium,"{'positive_factors': ['sos_change'], 'negative_factors': ['before_WS/40', 'cluster', 'before_USG%', 'before_OWS']}",jackson-fields-1
+58,0.6983998706776738,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",carmelo-pacheco-1
+59,0.752330835873013,True,Medium,"{'positive_factors': ['sos_change'], 'negative_factors': ['before_WS/40', 'cluster', 'before_USG%', 'before_OWS']}",pablo-tamba-1
+60,0.5201451420796402,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",jailen-bedford-1
+61,0.7515649435532857,True,Medium,"{'positive_factors': [], 'negative_factors': ['before_WS/40', 'cluster', 'before_USG%', 'before_OWS', 'before_G_x']}",vincent-iwuchukwu-1
+62,0.7091634879015746,True,Medium,"{'positive_factors': [], 'negative_factors': ['before_WS/40', 'sos_change', 'before_USG%', 'before_OWS', 'netrtg_change']}",jace-howard-1
+63,0.7461987544684727,True,Medium,"{'positive_factors': [], 'negative_factors': ['before_WS/40', 'cluster', 'before_USG%', 'before_OWS', 'sos_change']}",kc-ibekwe-1
+64,0.5471566412699045,True,Low,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",josh-harris-1
+65,0.7481080608163362,True,Medium,"{'positive_factors': [], 'negative_factors': ['before_WS/40', 'cluster', 'before_USG%', 'before_OWS', 'before_G_x']}",jalen-shelley-1
+66,0.582678179305929,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",jamie-vinson-1
+67,0.710619427026815,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",derrion-reid-1
+68,0.7071447964736786,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",don-mchenry-1
+69,0.7203229132308081,True,Medium,"{'positive_factors': ['sos_change', 'cluster', 'netrtg_change'], 'negative_factors': ['before_WS/40', 'before_USG%']}",blake-harper-1
+70,0.7336983776063577,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",tyler-harris-5
+71,0.4382461509480228,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",seydou-traore-1
+72,0.550061373199322,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",arrinten-page-2
+73,0.7728652712488209,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",kennard-davis-1
+74,0.5012446778659413,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",ishan-sharma-1
+75,0.4887575501254032,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'sos_change']}",elijah-crawford-1
+76,0.5986884955405732,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",jaydon-young-1
+77,0.7780892440679074,True,Medium,"{'positive_factors': [], 'negative_factors': ['before_WS/40', 'cluster', 'before_USG%', 'before_OWS', 'before_G_x']}",sam-alexis-1
+78,0.7565641516466224,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",nick-dorn-1
+79,0.7786457169968353,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",jared-garcia-1
+80,0.5525832990101541,True,Low,"{'positive_factors': ['cluster', 'sos_change', 'netrtg_change'], 'negative_factors': ['before_WS/40', 'before_USG%']}",braeden-carrington-1
+81,0.5557544071707272,True,Low,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",luke-bamgboye-1
+82,0.7550356272060756,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",kimani-hamilton-1
+83,0.5169215572204765,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",simeon-wilcher-2
+84,0.7195609226351968,True,Medium,"{'positive_factors': ['sos_change', 'cluster', 'netrtg_change'], 'negative_factors': ['before_WS/40', 'before_USG%']}",aj-brown-1
+85,0.4325510404925316,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",chris-bell-1
+86,0.760414927354657,True,Medium,"{'positive_factors': [], 'negative_factors': ['before_WS/40', 'cluster', 'before_USG%', 'before_OWS', 'before_G_x']}",peyton-marshall-1
+87,0.5206458571674186,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",dillon-mitchell-1
+88,0.5647475146964286,True,Low,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",jason-drake-1
+89,0.7182882228736582,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'sos_change']}",sam-walters-3
+90,0.5342158747677297,True,Low,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",ak-okereke-1
+91,0.7660275274773852,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",rodney-rice-2
+92,0.4672824370804044,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'sos_change']}",scotty-middleton-1
+93,0.7104429929676751,True,Medium,"{'positive_factors': [], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x', 'before_WS']}",chance-westry-1
+94,0.5299688226131621,True,Low,"{'positive_factors': ['cluster', 'adjt_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",grant-newell-1
+95,0.7767165202923481,True,Medium,"{'positive_factors': [], 'negative_factors': ['before_WS/40', 'cluster', 'before_USG%', 'before_OWS', 'before_G_x']}",ladji-dembele-1
+96,0.7055331732255997,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",ian-jackson-1
+97,0.7108845268071227,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",duncan-powell-1
+98,0.6790592744448941,True,Medium,"{'positive_factors': ['cluster', 'sos_change', 'netrtg_change'], 'negative_factors': ['before_WS/40', 'before_USG%']}",xaivian-lee-1
+99,0.4626364751491178,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",jalen-celestine-1
+100,0.7361304751485194,True,Medium,"{'positive_factors': [], 'negative_factors': ['before_WS/40', 'cluster', 'before_USG%', 'before_OWS', 'before_G_x']}",moustapha-thiam-1
+101,0.4741587158627062,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'sos_change', 'before_OWS']}",justyn-fernandez-1
+102,0.5689835699642256,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",mike-sharavjamts-1
+103,0.731512428698805,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",treysen-eaglestaff-1
+104,0.49474760347596736,False,Low,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",alvaro-folgueiras-1
+105,0.7449730851236103,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",isaiah-elohim-1
+106,0.7207002531884241,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",chase-forte-1
+107,0.6530572004332876,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",jahki-howard-1
+108,0.8041436473320935,True,High,"{'positive_factors': [], 'negative_factors': ['before_WS/40', 'cluster', 'before_USG%', 'before_OWS', 'before_G_x']}",josiah-moseley-1
+109,0.50371792804423,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",bryson-tucker-1
+110,0.5668657969362524,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",ezra-ausar-1
+111,0.7481082075300922,True,Medium,"{'positive_factors': [], 'negative_factors': ['before_WS/40', 'cluster', 'before_USG%', 'sos_change', 'before_OWS']}",jaqualon-roberts-1
+112,0.4581586864890395,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'sos_change']}",jason-asemota-1
+113,0.613238112761114,True,Low,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",adam-njie-jr-1
+114,0.7033998000844304,True,Medium,"{'positive_factors': ['rank_change'], 'negative_factors': ['before_WS/40', 'sos_change', 'netrtg_change', 'before_USG%']}",daniel-freitag-1
+115,0.5741391693908708,True,Low,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",josh-holloway-1
+116,0.7605539818842216,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",mackenzie-mgbako-2
+117,0.7133139966109314,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",bryce-lindsay-1
+118,0.7488177331968917,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",kevin-overton-2
+119,0.7442381916275496,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",dejour-reaves-1
+120,0.5089060804953259,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",braden-pierce-1
+121,0.5434841681483735,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",isaiah-barnes-1
+122,0.46774474738763194,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",owen-aquino-1
+123,0.5279196839018302,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",zachary-davis-1
+124,0.7508119793116339,True,Medium,"{'positive_factors': [], 'negative_factors': ['before_WS/40', 'cluster', 'before_USG%', 'before_OWS', 'before_G_x']}",oleg-kojenets-2
+125,0.7285187249679989,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",tayton-conerway-1
+126,0.745795636008455,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",jasai-miles-1
+127,0.46278650338196464,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",elijah-moore-1
+128,0.7295024227635943,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",mekhi-mason-1
+129,0.756423458400869,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",oziyah-sellers-1
+130,0.5438398261547837,True,Low,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",jasper-floyd-1
+131,0.739131521894683,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",brady-dunlap-1
+132,0.728931624150052,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",ketron-shaw-1
+133,0.5220495516519952,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",jordan-derkack-1
+134,0.4673985240197873,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",ahmad-nowell-1
+135,0.7753142612322573,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",julius-thedford-1
+136,0.7376450045917896,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",zion-stanford-1
+137,0.4687231454592096,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",asa-thomas-1
+138,0.7587185728622606,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",masai-troutman-1
+139,0.7394248093532962,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",jake-wahlin-1
+140,0.5667550904540042,True,Low,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",caden-powell-1
+141,0.7473952156666975,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",izaiah-pasha-1
+142,0.7723420546570239,True,Medium,"{'positive_factors': [], 'negative_factors': ['before_WS/40', 'cluster', 'before_USG%', 'sos_change', 'before_OWS']}",noah-boyde-1
+143,0.5097856686853682,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",matthew-reed-2
+144,0.5797360717491352,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",efrem-johnson-1
+145,0.4739095363024211,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",jarin-stevenson-1
+146,0.7782533438822594,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",kanon-catchings-1
+147,0.55357195944299,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",zach-clemence-1
+148,0.5245302159364883,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",dj-jefferson-1
+149,0.7869778079767974,True,Medium,"{'positive_factors': [], 'negative_factors': ['before_WS/40', 'cluster', 'before_USG%', 'before_OWS', 'before_G_x']}",keeyan-itejere-1
+150,0.7037690777794136,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",langston-reynolds-1
+151,0.744279312332624,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",al-green-1
+152,0.5357459644502426,True,Low,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",elijah-strong-1
+153,0.5951687246610463,True,Low,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",carson-towt-1
+154,0.7509756420885723,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",donovan-atwell-1
+155,0.7705218542435194,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",john-camden-1
+156,0.702250091368539,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",bryson-cokley-1
+157,0.5749014242928315,True,Low,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",juslin-bodo-bodo-1
+158,0.507362698742554,True,Low,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",jalen-haynes-1
+159,0.5042817280248186,True,Low,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",james-okonkwo-1
+160,0.5734805370035382,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",gabriel-pozzato-1
+161,0.48890517000343087,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",boden-kapke-1
+162,0.7320139213932009,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",tj-simpkins-1
+163,0.7211418202294833,True,Medium,"{'positive_factors': ['sos_change', 'cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",jacari-lane-1
+164,0.768905393925682,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",jordan-burks-1
+165,0.6693252989285263,True,Medium,"{'positive_factors': ['sos_change', 'cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",max-green-1
+166,0.7094855715149007,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",malik-moore-3
+167,0.7301233904144826,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",honor-huff-1
+168,0.5528657508935202,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",tre-carroll-1
+169,0.7602382944888355,True,Medium,"{'positive_factors': ['cluster', 'adjt_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",elijah-saunders-1
+170,0.7390171918164806,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",barry-dunning-jr-1
+171,0.6978258318884525,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",jaden-brownell-1
+172,0.5866827662141303,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",aday-mara-2
+173,0.4963970098045109,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",rodney-brown-jr-1
+174,0.74653973869113,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",justin-bailey-2
+175,0.729758635241666,True,Medium,"{'positive_factors': [], 'negative_factors': ['before_WS/40', 'cluster', 'before_USG%', 'before_OWS', 'before_G_x']}",john-hugley-1
+176,0.6841407291164324,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",brandon-maclin-1
+177,0.5257210883244522,True,Low,"{'positive_factors': ['cluster', 'sos_change', 'netrtg_change'], 'negative_factors': ['before_WS/40', 'before_USG%']}",evan-nelson-1
+178,0.7757944166848435,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",wesley-yates-iii-1
+179,0.5105126310709828,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",rj-johnson-1
+180,0.5030979485313003,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",frankie-collins-1
+181,0.5085028551212831,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",dallin-hall-1
+182,0.735185979170701,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",tk-simpkins-1
+183,0.7126629772200672,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",kendall-blue-1
+184,0.45269329333093594,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",rj-smith-2
+185,0.5706472036702048,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'rank_change']}",will-cooper-1
+186,0.43325557900184236,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",justin-pippen-1
+187,0.4456378411013352,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",david-coit-1
+188,0.5537527614781665,True,Low,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",brenen-lorient-1
+189,0.5646001785029477,True,Low,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",jamarques-lawrence-1
+190,0.7742402654350862,True,Medium,"{'positive_factors': [], 'negative_factors': ['before_WS/40', 'cluster', 'before_USG%', 'before_OWS', 'before_G_x']}",micah-smith-1
+191,0.46921431401287816,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'sos_change']}",del-jones-1
+192,0.7449475534107406,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",bobby-durkin-1
+193,0.4998033808376877,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",malachi-palmer-1
+194,0.4780511870536305,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",myles-colvin-2
+195,0.4866566482590918,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",tyren-moore-1
+196,0.7445772714027781,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",tae-davis-1
+197,0.7364843638601621,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",sebastian-mack-2
+198,0.5794750126674555,True,Low,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",matas-vokietaitis-1
+199,0.690554105737857,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",kj-lewis-2
+200,0.4259930002740437,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",sencire-harris-1
+201,0.46083830767983075,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",luke-northweather-1
+202,0.7750075593540441,True,Medium,"{'positive_factors': [], 'negative_factors': ['before_WS/40', 'cluster', 'before_USG%', 'before_OWS', 'before_G_x']}",ibrahim-souare-1
+203,0.4721194458820887,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",kerr-kriisa-1
+204,0.5889655161048966,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",quante-berry-1
+205,0.4857063500458989,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",isaiah-abraham-1
+206,0.513933764536044,True,Low,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",jacob-ognacevic-1
+207,0.7562967475583133,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",reed-bailey-1
+208,0.5430566232667844,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",jayden-pierre-1
+209,0.4419227870070008,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",myles-rice-1
+210,0.5004734592163124,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'sos_change']}",emmanuel-stephen-1
+211,0.5318386020404571,True,Low,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",ugnius-jarusevicius-1
+212,0.515405568279674,True,Low,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",amarion-dickerson-1
+213,0.727254963179398,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",amani-hansberry-2
+214,0.7088665874278225,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",sam-lewis-2
+215,0.5284146937747981,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",jacob-cofie-1
+216,0.6948442823644357,True,Medium,"{'positive_factors': [], 'negative_factors': ['before_WS/40', 'cluster', 'before_USG%', 'before_OWS', 'before_G_x']}",solomon-washington-1
+217,0.503478744580906,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",tre-white-1
+218,0.7707940997380307,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",jovan-milicevic-1
+219,0.5554595793730454,True,Low,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",yaxel-lendeborg-1
+220,0.43684402696373775,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",jaylin-sellers-1
+221,0.5304879405838744,True,Low,"{'positive_factors': ['cluster', 'adjt_change', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%']}",tavion-banks-1
+222,0.5462329879839304,True,Low,"{'positive_factors': ['cluster', 'sos_change', 'netrtg_change'], 'negative_factors': ['before_WS/40', 'before_USG%']}",austin-rapp-1
+223,0.5198449943481639,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",jalen-washington-1
+224,0.6573712628916536,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",camden-heide-1
+225,0.45141680267392753,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",pharrel-payne-1
+226,0.5807369290952585,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",anthony-robinson-6
+227,0.5257332384362254,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",henri-veesaar-1
+228,0.5423150456578505,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",naithan-george-1
+229,0.7362615005360843,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",terrence-brown-1
+230,0.7681824249741332,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",pryce-sandfort-1
+231,0.7687194645100921,True,Medium,"{'positive_factors': [], 'negative_factors': ['before_WS/40', 'cluster', 'before_USG%', 'before_OWS', 'before_G_x']}",rj-godfrey-1
+232,0.7583322249113972,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",josh-dix-1
+233,0.6861802731231595,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",jason-edwards-3
+234,0.4914488130835146,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",trey-green-2
+235,0.4716627312247339,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",dion-brown-3
+236,0.7002928980116809,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",max-mackinnon-1
+237,0.753609171490532,True,Medium,"{'positive_factors': ['cluster', 'adjt_change', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%']}",isaia-howard-1
+238,0.5479052153050777,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",andrew-rohde-1
+239,0.7552323809642375,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",isaac-mckneely-1
+240,0.7840085722357684,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",all-wright-1
+241,0.7584023450945152,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",jeremiah-wilkinson-1
+242,0.5439900901773157,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",cameron-haffner-1
+243,0.5656960287695129,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",callum-richard-1
+244,0.5585935306909239,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",mari-jordan-1
+245,0.7669151643470875,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",keyshawn-hall-1
+246,0.5638754950350792,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",nick-davidson-2
+247,0.5581444161726089,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",bj-omot-1
+248,0.7489158144460272,True,Medium,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",tucker-devries-1
+249,0.5317552124585587,True,Low,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",kaleb-banks-1
+250,0.7714917978932547,True,Medium,"{'positive_factors': [], 'negative_factors': ['before_WS/40', 'cluster', 'before_USG%', 'before_OWS', 'before_G_x']}",jerry-ngopot-1
+251,0.5435901567756428,True,Low,"{'positive_factors': ['cluster', 'adjt_change', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%']}",cam-manyawu-1
+252,0.5619314251958055,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",cooper-schwieger-1
+253,0.4925832216856652,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",david-thomas-3
+254,0.4984979934606813,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",kyler-vanderjagt-1
+255,0.4790080933865448,False,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",langston-love-1
+256,0.5866671617017458,True,Low,"{'positive_factors': ['cluster'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS', 'before_G_x']}",conor-enright-1
+257,0.7079651068487094,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",adam-clark-1
+258,0.7030214055564369,True,Medium,"{'positive_factors': ['cluster', 'sos_change'], 'negative_factors': ['before_WS/40', 'before_USG%', 'before_OWS']}",rashad-king-1
+259,0.7783652070374137,True,Medium,"{'positive_factors': ['adjt_change', 'sos_change'], 'negative_factors': ['before_WS/40', 'cluster', 'before_USG%']}",kael-combs-1
