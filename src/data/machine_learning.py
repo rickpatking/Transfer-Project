@@ -5,6 +5,7 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report, confusion_matrix, roc_auc_score
+from sklearn.model_selection import cross_val_score
 import matplotlib.pyplot as plt
 import seaborn as sns
 
@@ -93,9 +94,16 @@ def evaluate_model(model, X_test, y_test, model_name):
     plt.ylabel('Actual')
     plt.xlabel('Predicted')
     plt.savefig(f'../../reports/figures/{model_name.lower()}_confusion_matrix.png')
-    plt.show()
+    # plt.show()
 
     return y_pred, y_pred_proba
+
+scores = cross_val_score(best_rf, X, y, cv=5, scoring='accuracy')
+print(f"Scores for each fold: {scores}")
+print(f"Mean score: {scores.mean():.4f}")
+print(f"Standard deviation: {scores.std():.4f}")
+
+
 
 lr_pred, lr_proba = evaluate_model(log_reg, X_test_scaled, y_test, 'Logistic Regression')
 rf_pred, rf_proba = evaluate_model(best_rf, X_test_scaled, y_test, 'Random Forest')
@@ -111,12 +119,15 @@ plt.title('Top 15 Most Important Features for Transfer Success Prediction')
 plt.xlabel('Feature Importance')
 plt.tight_layout()
 plt.savefig('../../reports/figures/feature_importance.png')
-plt.show()
+# plt.show()
 
 print('Top 10 Most Important Features:')
 print(feature_importance.head(10))
 
 test_results = X_test_scaled.copy()
+
+
+
 test_results['actual'] = y_test
 test_results['predicted'] = rf_pred
 test_results['correct'] =(test_results['actual'] == test_results['predicted'])
@@ -144,4 +155,4 @@ with open('../../models/feature_names.txt', 'w') as f:
     for feature in feature_names:
         f.write(f'{feature}\n')
 
-print('Model and preprocessing objects saved successfully!')
+# print('Model and preprocessing objects saved successfully!')

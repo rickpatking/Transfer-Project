@@ -29,18 +29,18 @@ def scrape_team_kenpom(Team, Year):
             for row2 in row.find_all('tr'):
                 link = row2.find('a')
                 if link.text.strip() == Team:
-                    rank = row.find('td', class_='hard_left')
+                    rank = row2.find('td', class_='hard_left')
                     if rank:
                         team_stats.loc[0, 'rank'] = (rank.text.strip())
 
-                    net = row.find_all('td')
+                    net = row2.find_all('td')
                     if net:
                         for tag in net:
                             if tag.get('class') is None:
                                 team_stats.loc[0, 'netrtg'] = tag.text.strip()
                             else:
                                 continue
-                    left_divide = row.find_all('td', class_='td-left divide')
+                    left_divide = row2.find_all('td', class_='td-left divide')
                     if left_divide:
                         team_stats.loc[0, 'adjt'] = (left_divide[1]).text.strip()
                         team_stats.loc[0, 'luck'] = (left_divide[2]).text.strip()
@@ -78,6 +78,89 @@ def scrape_mul_teams(team_list):
 
 if __name__ == '__main__':
     transfer_data = pd.read_csv('processed/transfers_stats_with_clusters.csv')
+
+    new_team_list = []
+    for index, player in transfer_data.iterrows():
+        team = []
+        year = player['before_Season']
+        year = year[:2] + year[5:]
+        if 'State' in player['before_Team']:
+            player.replace('State', 'St.', regex=True, inplace=True)
+        if 'Louisiana St.' in player['before_Team']:
+            player['before_Team'] = 'LSU'
+        if 'Gardner-Webb' in player['before_Team']:
+            player['before_Team'] = 'Gardner Webb'
+        if 'TexasâRio Grande Valley' in player['before_Team']:
+            player['before_Team'] = 'UT Rio Grande Valley'
+        if "St. Mary's (CA)" in player['before_Team']:
+            player['before_Team'] = "Saint Mary's"
+        if "Miami (FL)" in player['before_Team']:
+            player['before_Team'] = "Miami FL"
+        if "Queens (NC)" in player['before_Team']:
+            player['before_Team'] = "Queens"
+        if "St. John's (NY)" in player['before_Team']:
+            player['before_Team'] = "St. John's"
+        if "Loyola (MD)" in player['before_Team']:
+            player['before_Team'] = "Loyola MD"
+        if "Texas A&MâCommerce" in player['before_Team']:
+            player['before_Team'] = "East Texas A&M"
+        if "ArkansasâPine Bluff" in player['before_Team']:
+            player['before_Team'] = "Arkansas Pine Bluff"
+        if "Ole Miss" in player['before_Team']:
+            player['before_Team'] = "Mississippi"
+        if "Central Connecticut St." in player['before_Team']:
+            player['before_Team'] = "Central Connecticut"
+        if "IllinoisâChicago" in player['before_Team']:
+            player['before_Team'] = "Illinois Chicago"
+        if "FDU" in player['before_Team']:
+            player['before_Team'] = "Fairleigh Dickinson"
+        if "Florida International" in player['before_Team']:
+            player['before_Team'] = "FIU"
+        if "Southern California" in player['before_Team']:
+            player['before_Team'] = "USC"
+        if "Brigham Young" in player['before_Team']:
+            player['before_Team'] = "BYU"
+        if "College of Charleston" in player['before_Team']:
+            player['before_Team'] = "Charleston"
+        if "Saint Francis (PA)" in player['before_Team']:
+            player['before_Team'] = "St. Francis PA"
+        if "NC St." in player['before_Team']:
+            player['before_Team'] = "N.C. State"
+        if "UT Martin" in player['before_Team']:
+            player['before_Team'] = "Tennessee Martin"
+        if "Pennsylvania" in player['before_Team']:
+            player['before_Team'] = "Penn"
+        if "Southern Mississippi" in player['before_Team']:
+            player['before_Team'] = "Southern Miss"
+        if "Bethune-Cookman" in player['before_Team']:
+            player['before_Team'] = "Bethune Cookman"
+        if "St. Francis Brooklyn" in player['before_Team']:
+            player['before_Team'] = "St. Francis NY"
+        if "SIU Edwardsville" in player['before_Team'] and year == '2025':
+            player['before_Team'] = "SIUE"
+        if "LouisianaâMonroe" in player['before_Team']:
+            player['before_Team'] = 'Louisiana Monroe'
+        if "Texas A&MâCorpus Christi" in player['before_Team']:
+            player['before_Team'] = 'Texas A&M Corpus Chris'
+        if "Albany (NY)" in player['before_Team']:
+            player['before_Team'] = 'Albany'
+        if "Miami (OH)" in player['before_Team']:
+            player['before_Team'] = 'Miami OH'
+        if "Omaha" in player['before_Team']:
+            player['before_Team'] = 'Nebraska Omaha'
+
+        team.append(player['before_Team'])
+        team.append(year)
+        new_team_list.append(team)
+    new_all_data = scrape_mul_teams(new_team_list)
+
+    if not new_all_data.empty:
+        os.makedirs('processed', exist_ok=True)
+        transfer_file_path = 'processed/team_stats.csv'
+        new_all_data.to_csv(transfer_file_path, index=False)
+    else:
+        print('No transfers found')
+
     team_list = []
     for index, player in transfer_data.iterrows():
         team = []
