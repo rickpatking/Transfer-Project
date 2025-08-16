@@ -56,11 +56,8 @@ features = [
   - Low Impact Guard
 
 ### 3. Transfer Success Prediction (Supervised Learning)
-- **Target Variable:** Composite success score (0-100) based on:
-  - Performance improvement (PER, efficiency metrics)
-  - Playing time increase
-  - Team success contribution
-- **Models Tested:** Logistic Regression, Random Forest, SVM
+- **Target Variable:** Change in Player Efficiency Rating (PER)
+- **Models Tested:** Logistic Regression, Random Forest
 - **Best Model:** Random Forest with 79.7% accuracy
 
 ## Key Findings
@@ -76,17 +73,17 @@ features = [
 
 | Metric | Score |
 |--------|-------|
-| **Accuracy** | 78.2% |
-| **Precision** | 76.8% |
-| **Recall** | 79.1% |
-| **F1-Score** | 77.9% |
-| **ROC-AUC** | 0.851 |
+| **Accuracy** | 79.7% |
+| **Precision** | 82% |
+| **Recall** | 80% |
+| **F1-Score** | 79% |
+| **ROC-AUC** | 86.2% |
 
 ### Cross-Validation Results
-- **5-Fold CV Mean:** 77.4% ± 2.1%
+- **5-Fold CV Mean:** 79.1%
 - **Stable performance** across different data splits
 
-## 🚀 Installation & Usage
+## Installation & Usage
 
 ### Prerequisites
 ```bash
@@ -133,30 +130,20 @@ python src/models/predict_model.py
 ```
 college_basketball_transfer_project/
 ├── data/
-│   ├── raw/                    # Original scraped data
-│   ├── interim/               # Processed data
-│   └── processed/             # Final modeling datasets
-├── notebooks/
-│   ├── 01-EDA.ipynb          # Exploratory data analysis
-│   ├── 02-Clustering.ipynb   # Play-style clustering
-│   └── 03-Modeling.ipynb     # Model training & evaluation
+│   ├── raw/                    
+│   ├── interim/               
+│   └── processed/             
 ├── src/
 │   ├── data/
-│   │   └── make_dataset.py   # Data collection scripts
 │   ├── features/
-│   │   └── build_features.py # Feature engineering
 │   ├── models/
-│   │   ├── train_model.py    # Model training
-│   │   └── predict_model.py  # Predictions & evaluation
 │   └── visualization/
-│       └── visualize.py      # Plotting functions
-├── models/                    # Saved model files
+├── models/                   
 ├── reports/
-│   ├── figures/              # Generated visualizations
-│   └── final_report.md       # Detailed analysis report
-├── app.py                    # Streamlit application
-├── requirements.txt          # Project dependencies
-└── README.md                 # This file
+│   └── figures/              
+├── app.py                   
+├── requirements.txt          
+└── README.md                 
 ```
 
 ## Technologies Used
