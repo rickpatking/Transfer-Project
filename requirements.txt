@@ -1,0 +1,40 @@
+# Core Data Science Libraries
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.1.0
+scipy>=1.9.0
+
+# Machine Learning Enhancement
+xgboost>=1.6.0
+lightgbm>=3.3.0
+imbalanced-learn>=0.9.0
+
+# Web Scraping
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+selenium>=4.5.0
+lxml>=4.9.0
+
+# Data Visualization  
+matplotlib>=3.5.0
+seaborn>=0.11.0
+plotly>=5.10.0
+
+# Web Application
+streamlit>=1.25.0
+streamlit-plotly-events>=0.0.6
+
+# String Processing & Fuzzy Matching
+fuzzywuzzy>=0.18.0
+python-Levenshtein>=0.20.0
+
+# Development & Utilities
+jupyter>=1.0.0
+ipykernel>=6.15.0
+tqdm>=4.64.0
+python-dotenv>=0.20.0
+
+# Sports Analytics (Optional)
+# Uncomment if using specialized libraries
+# sports-reference>=0.5.2
+# nba-api>=1.1.11
