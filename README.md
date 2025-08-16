@@ -191,6 +191,3 @@ college_basketball_transfer_project/
 patrickking@ufl.edu
 [LinkedIn](www.linkedin.com/in/patrickking0)
 [GitHub](https://github.com/rickpatking)
----
-
-*Built with ❤️ for the basketball analytics community*
